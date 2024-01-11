@@ -9,10 +9,10 @@ const Cols = ({ animationDuration }) => {
     controls.start({
       skewY: [0, 12, 0], 
       transition: {
-        duration: animationDuration || 0.7,
+        duration: animationDuration || 5,
         ease: 'easeOut',
         loop: Infinity, 
-        repeatDelay: 2, 
+        repeatDelay: 6, 
       },
     });
   }, [animationDuration, controls]);
@@ -22,7 +22,7 @@ const Cols = ({ animationDuration }) => {
       className="hover:skew-y-12"
       animate={controls}
       style={{
-        zIndex: 2,
+        zIndex: 0,
         width: 105,
         height: 588,
         background:
@@ -40,16 +40,16 @@ const ColsContainer = () => {
 
   useEffect(() => {
     
-    const durations = Array(17)
+    const durations = Array(15)
       .fill(null)
-      .map(() => Math.random() * (0.5 - 0.1) + 0.1);
+      .map(() => Math.random() * (2 - 5) + 5);
     setAnimationDurations(durations);
   }, []);
 
   return (
     <>
       {animationDurations.map((duration, index) => (
-        <Cols key={index} animationDuration={duration} />
+        <Cols className=" animate-pulse duration-200" key={index} animationDuration={duration} />
       ))}
     </>
   );

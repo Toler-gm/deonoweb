@@ -146,11 +146,7 @@ height: 100%;
 
         <div className="absolute top-2/4 right-2/4 -translate-y-2/4 translate-x-1/2 text-center text-white z-10">
           <h2 className="mb-5 font-black text-7xl  md:text-9xl">
-            <motion.span initial={{ opacity: 0, y: 40, }} animate={{ opacity: 1, y: 20 }} transition={{ duration: 1, delay: 1, }} >D</motion.span>
-            <motion.span initial={{ opacity: 0, y: 40, }} animate={{ opacity: 1, y: 20 }} transition={{ duration: 1, delay: 2, }} >E</motion.span>
-            <motion.span initial={{ opacity: 0, y: 40, }} animate={{ opacity: 1, y: 20 }} transition={{ duration: 1, delay: 3, }} >O</motion.span>
-            <motion.span initial={{ opacity: 0, y: 40, }} animate={{ opacity: 1, y: 20 }} transition={{ duration: 1, delay: 4, }} >N</motion.span>
-            <motion.span initial={{ opacity: 0, y: 40, }} animate={{ opacity: 1, y: 20 }} transition={{ duration: 1, delay: 5, }} >E</motion.span>
+            DEONE
           </h2>
           <p className="mb-5 text-4xl md:text-3xl stroke-white text-transparent font-black leading-8" style={{ WebkitTextStroke: "1px white" }}>
             AGENCIA DE MARKETING DIGITAL
@@ -158,7 +154,7 @@ height: 100%;
           <button className="md:py-3 md:px-10 py-2 px-7  border border-white font-bold bg-black shadow-md ease-out duration-200 hover:shadow-white "  >CONTACTAR</button>
           <ul className="flex justify-center gap-3 m-5" >
             <li><a href=""><img className=" w-9 md:w-full ease-linear duration-100 hover:scale-110" src={yt} alt="" /></a></li>
-            <li><a href=""><img className=" w-9 md:w-full ease-linear duration-100 hover:scale-110" src={ig} alt="" /></a></li>
+            <li><a href="https://www.instagram.com/deone.pe/"><img className=" w-9 md:w-full ease-linear duration-100 hover:scale-110" src={ig} alt="" /></a></li>
             <li><a href=""><img className=" w-9 md:w-full ease-linear duration-100 hover:scale-110" src={tk} alt="" /></a></li>
             <li><a href=""><img className=" w-9 md:w-full ease-linear duration-100 hover:scale-110" src={fb} alt="" /></a></li>
           </ul>
@@ -232,9 +228,9 @@ height: 100%;
             >
               TRES RAZONES CLAVES POR LAS <br /> CUALES TENER UNA PÁGINA WEB <br /> ES IMPORTANTE
             </motion.h3>
-            <div className="mt-20 flex md:flex-row flex-col  gap-20 mx-5 ">
+            <div className="mt-20 flex md:flex-row flex-col items-baseline  gap-20 mx-5 ">
               <motion.div
-                className="flex flex-col justify-center items-center gap-5"
+                className="w-full flex flex-col justify-center items-center gap-5"
                 initial={{ opacity: 0, y: 50 }}
                 animate={{ opacity: isVisibleSection2 ? 1 : 0, y: isVisibleSection2 ? 0 : 50 }}
                 transition={{ duration: 1, }}
@@ -243,23 +239,23 @@ height: 100%;
                 <h2 className=" text-2xl font-bold text-center" >Visibilidad <br /> Continua</h2>
                 <p className="text-center font-light">Una página web te brinda visibilidad las 24/7, permitiendo a clientes encontrar información clave en cualquier momento. Esto amplía tu alcance y facilita la conexión con audiencias globales.</p>
               </motion.div>
-              <motion.div className="flex flex-col justify-center items-center gap-5"
+              <motion.div className="w-full flex flex-col justify-center items-center gap-5"
                 initial={{ opacity: 0, y: 50 }}
                 animate={{ opacity: isVisibleSection2 ? 1 : 0, y: isVisibleSection2 ? 0 : 50 }}
                 transition={{ duration: 1.5, }}
               >
                 <span className=" text-7xl font-black italic text-center">2</span>
-                <h2 className=" text-2xl font-bold text-center" >Visibilidad <br /> Continua</h2>
-                <p className="text-center font-light">Una página web te brinda visibilidad las 24/7, permitiendo a clientes encontrar información clave en cualquier momento. Esto amplía tu alcance y facilita la conexión con audiencias globales.</p>
+                <h2 className=" text-2xl font-bold text-center" >Credibilidad<br /> Instantánea</h2>
+                <p className="text-center font-light">Tu página web actúa como un escaparate digital, transmitiendo profesionalismo y construyendo confianza entre los visitantes. Mostrar productos, servicios y testimonios refuerza la credibilidad de tu negocio.</p>
               </motion.div>
-              <motion.div className="flex flex-col justify-center items-center gap-5"
+              <motion.div className="w-full flex flex-col justify-center items-center gap-5"
                 initial={{ opacity: 0, y: 50 }}
                 animate={{ opacity: isVisibleSection2 ? 1 : 0, y: isVisibleSection2 ? 0 : 50 }}
                 transition={{ duration: 2, }}
               >
                 <span className=" text-7xl font-black italic text-center">3</span>
-                <h2 className=" text-2xl font-bold text-center" >Visibilidad <br /> Continua</h2>
-                <p className="text-center font-light">Una página web te brinda visibilidad las 24/7, permitiendo a clientes encontrar información clave en cualquier momento. Esto amplía tu alcance y facilita la conexión con audiencias globales.</p>
+                <h2 className=" text-2xl font-bold text-center" >Marketing<br />Eficiente</h2>
+                <p className="text-center font-light">La presencia en línea no solo es esencial, sino que también es tu herramienta de marketing más eficiente. Desde estrategias de SEO hasta campañas de publicidad, tu página web es clave para atraer y convertir clientes, expandiendo así tu impacto globalmente.</p>
               </motion.div>
             </div>
           </div>
@@ -335,7 +331,7 @@ height: 100%;
               <div>
                 <ul className="flex flex-col gap-3  " >
                   <li className="flex gap-1"><img src={checkcircle} alt="" /><span className=" text-sm font-light">DOMINIO Y HOSTING</span></li>
-                  <li className="flex gap-1"><img src={checkcircle} alt="" /><span className=" text-sm font-light">SERTIFICADO SSL</span></li>
+                  <li className="flex gap-1"><img src={checkcircle} alt="" /><span className=" text-sm font-light">CERTIFICADO SSL</span></li>
                   <li className="flex gap-1"><img src={checkcircle} alt="" /><span className=" text-sm font-light">RESPOSIVE DESING</span></li>
                   <li className="flex gap-1"><img src={checkcircle} alt="" /><span className=" text-sm font-light">REDES SOCIALES BÁSICO</span></li>
                 </ul>
@@ -362,7 +358,7 @@ height: 100%;
               <div>
                 <ul className="flex flex-col gap-3">
                   <li className="flex gap-1"><img src={checkcircle} alt="" /><span className=" text-sm font-light">DOMINIO Y HOSTING</span></li>
-                  <li className="flex gap-1"><img src={checkcircle} alt="" /><span className=" text-sm font-light">SERTIFICADO SSL</span></li>
+                  <li className="flex gap-1"><img src={checkcircle} alt="" /><span className=" text-sm font-light">CERTIFICADO SSL</span></li>
                   <li className="flex gap-1"><img src={checkcircle} alt="" /><span className=" text-sm font-light">RESPOSIVE DESING</span></li>
                   <li className="flex gap-1"><img src={checkcircle} alt="" /><span className=" text-sm font-light">REDES SOCIALES ESTANDAR</span></li>
                   <li className="flex gap-1"><img src={checkcircle} alt="" /><span className=" text-sm font-light">DISEÑO PERSONALIZADO</span></li>
@@ -387,7 +383,7 @@ height: 100%;
               <div>
                 <ul className="flex flex-col gap-3">
                   <li className="flex gap-1"><img src={checkcircle} alt="" /><span className=" text-sm font-light">DOMINIO Y HOSTING</span></li>
-                  <li className="flex gap-1"><img src={checkcircle} alt="" /><span className=" text-sm font-light">SERTIFICADO SSL</span></li>
+                  <li className="flex gap-1"><img src={checkcircle} alt="" /><span className=" text-sm font-light">CERTIFICADO SSL</span></li>
                   <li className="flex gap-1"><img src={checkcircle} alt="" /><span className=" text-sm font-light">RESPOSIVE DESIGN</span></li>
                   <li className="flex gap-1"><img src={checkcircle} alt="" /><span className=" text-sm font-light">REDES SOCIALES PREMIUM</span></li>
                   <li className="flex gap-1"><img src={checkcircle} alt="" /><span className=" text-sm font-light">DISEÑO PERSONALIZADO PREMIUM</span></li>
@@ -406,7 +402,7 @@ height: 100%;
           <div className="w-full flex flex-col gap-10">
             <div className="md:text-left text-center">
               <h4 className=" text-5xl font-black">NOSOTROS</h4>
-              <p className=" text-xl font-light py-10">De la manera tan de one hicimos esta mini agencia para vuestras empresas, con nosotros tus sitios web y tu presencia en línea se vera muy Profesional.</p>
+              <p className=" text-xl font-light py-10">Pequeña empresa de marketing, hicimos esta mini agencia para vuestras empresas, con nosotros tus sitios web y tu presencia en línea se vera muy Profesional.</p>
             </div>
             <div className="flex flex-col gap-2 md:items-start items-center">
               <h4 className=" text-5xl font-black">REDES</h4>
